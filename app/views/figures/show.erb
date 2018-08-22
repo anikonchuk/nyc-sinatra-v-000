@@ -11,6 +11,6 @@
 <h3>Landmarks</h3>
 <ul>
   <% @figure.landmarks.each do |landmark| %>
-    <li><%= landmark.name %></li>
+    <li><%= landmark.name %>, Completed in <%= landmark.year_completed %></li>
   <% end %>
 </ul>
